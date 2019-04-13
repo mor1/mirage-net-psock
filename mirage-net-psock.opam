@@ -15,8 +15,10 @@ build: [
 
 depends: [
   "cstruct"        {>= "1.7.1"}
+  "cstruct-lwt"
   "dune"           {build}
   "io-page"        {>= "1.0.1"}
+  "io-page-unix"
   "mirage-net-lwt" {>= "1.0.0"}
   "ocaml"          {>= "4.07.1"}
 ]
